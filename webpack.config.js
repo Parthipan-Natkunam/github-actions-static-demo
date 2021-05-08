@@ -9,11 +9,11 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: "./public/index.html",
+          from: "./src/index.html",
           to: `${__dirname}/dist/index.html`,
         },
         {
-          from: "./public/vader.css",
+          from: "./src/vader.css",
           to: `${__dirname}/dist/vader.css`,
         },
       ],
