@@ -1,0 +1,17 @@
+{
+  "name": "darth-vader-fanpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "html-minimizer-webpack-plugin": "^2.1.0",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
